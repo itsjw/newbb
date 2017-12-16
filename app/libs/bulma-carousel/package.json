@@ -1,0 +1,102 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "bulma-carousel",
+        "scope": null,
+        "escapedName": "bulma-carousel",
+        "name": "bulma-carousel",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "E:\\iiot\\web\\newbb"
+    ]
+  ],
+  "_from": "bulma-carousel@latest",
+  "_id": "bulma-carousel@0.2.2",
+  "_inCache": true,
+  "_location": "/bulma-carousel",
+  "_nodeVersion": "6.9.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bulma-carousel-0.2.2.tgz_1511953928101_0.958599706646055"
+  },
+  "_npmUser": {
+    "name": "wikiki",
+    "email": "wikiki@protonmail.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "bulma-carousel",
+    "scope": null,
+    "escapedName": "bulma-carousel",
+    "name": "bulma-carousel",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bulma-carousel/-/bulma-carousel-0.2.2.tgz",
+  "_shasum": "af6350fd866b8c696b7e9124a5b28aca5c30e6e6",
+  "_shrinkwrap": null,
+  "_spec": "bulma-carousel",
+  "_where": "E:\\iiot\\web\\newbb",
+  "author": {
+    "name": "Wikiki",
+    "email": "wikiki@protonmail.com",
+    "url": "https://wikiki.github.io/bulma-extensions/overview"
+  },
+  "bugs": {
+    "url": "https://github.com/Wikiki/bulma-carousel/issues"
+  },
+  "dependencies": {},
+  "description": "Display a Image / Content carousel",
+  "devDependencies": {
+    "bulma": "^0.6.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "af6350fd866b8c696b7e9124a5b28aca5c30e6e6",
+    "tarball": "https://registry.npmjs.org/bulma-carousel/-/bulma-carousel-0.2.2.tgz"
+  },
+  "files": [
+    "carousel.sass",
+    "bulma-carousel.css",
+    "bulma-carousel.min.css",
+    "carousel.js",
+    "carousel.min.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "homepage": "https://github.com/Wikiki/bulma-carousel#readme",
+  "keywords": [
+    "Bulma",
+    "extensions",
+    "bulma",
+    "bulma.io"
+  ],
+  "license": "MIT",
+  "main": "carousel.sass",
+  "maintainers": [
+    {
+      "name": "wikiki",
+      "email": "wikiki@protonmail.com"
+    }
+  ],
+  "name": "bulma-carousel",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wikiki/bulma-carousel.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.2"
+}

@@ -1,7 +1,4 @@
 .header-nav
-  .nav-logo
-    height: 100%
-    padding: 7px 10px 7px 35px
   .company-name
     font-family: montserrat-bbiot, sans-serif
     color: #fff
@@ -9,10 +6,10 @@
     vertical-align: top
     text-transform: uppercase
     .head
-      font-size: 25px
+      font-size: 19px
       font-weight: bold
     .subhead
-      font-size: 13px
+      font-size: 10px
       font-weight: normal
   ul
     display: inline-block
@@ -20,17 +17,44 @@
     margin: 0
     padding: 0
     overflow: hidden
-  li
-    float: left
-    a 
-      display: block
-      text-align: center
-      padding: 14px 16px
-      text-decoration: none
-      color: #fff
-      font-family: montserrat-bbiot, sans-serif
-.responsible-div
-  display: inline-block
-  min-width: 30px
-  width: 300px
-  height: 100%
+.navbar
+  background-color: transparent
+.navbar-item
+  color: $light
+  font-family: montserrat-bbiot, sans-serif
+  img
+    max-height: 2.40rem
+a.navbar-item, a.navbar-link
+  .is-active, &:hover
+    color: $light
+    background-color: $dark
+
+a.navbar-item.red-colored, a.navbar-link.red-colored
+  .is-active, &:hover
+    color: $sand
+    background-color: $red
+
+.navbar-brand
+ a.navbar-item, a.navbar-link
+    .is-active, &:hover
+      color: $light
+      background-color: transparent
+
+.navbar-burger
+  margin-left: auto
+  background-color: $blue
+  border-color: $blue
+  .is-active
+    border-color: transparent
+  span
+    background-color: $light
+  &:hover
+    background-color: $blue
+.button.is-active, .button:active
+    border-color: transparent
+.navbar-menu
+  background-color: transparent
+.sticky-nav
+  background-color: $gray
+  .navbar
+    min-height: 1.75rem
