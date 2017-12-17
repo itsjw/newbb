@@ -14,9 +14,9 @@
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#gg" data-offset="50">
   <header>
-    <div class="header-nav">
+    <div class="header-nav"  >
       <div class="container">
         <nav class="navbar" role="navigation" aria-label="main navigation">
           <div class="navbar-brand">
@@ -64,24 +64,24 @@
         </nav>
       </div>
     </div>
-    <div class="sticky-nav">
+    <div class="sticky-nav" data-spy="affix"    data-offset-top="59" id="gg">
       <div class="container">
-        <nav class="navbar" role="navigation" aria-label="submain navigation">
+        <nav class="navbar " role="navigation" aria-label="submain navigation"  >
           <div class="navbar-menu" >
-              <div class="navbar-start">
-                  <a class="navbar-item bold">
+              <div class="navbar-start" >
+                  <a class="navbar-item bold" href="#iot">
                     Интернет вещей
                   </a>
-                  <a class="navbar-item bold">
+                  <a class="navbar-item bold" href="#product">
                     О продукте
                   </a>
-                  <a class="navbar-item bold">
+                  <a class="navbar-item bold" href="#goods">
                     Возможности
                   </a>
-                  <a class="navbar-item bold">
+                  <a class="navbar-item bold" href="#examples">
                     Примеры
                   </a>            
-                  <a class="navbar-item red-colored bold">
+                  <a class="navbar-item red-colored bold" href="#writeus">
                     Написать нам
                   </a>
               </div>
@@ -91,18 +91,25 @@
     </div>
   
   </header>
-  <main>
-    <div class="main-header grid" >
-      <div class="header-content grid">
-        <h1>Решение, которое освежит Ваш бизнес</h1>
-        <div class="header-buttons">
-          <a href="#" class="button-main pulse">Узнать больше</a>
-        </div>
-      </div>
-    </div>  
+  <main >
+    <section id="iot">
+      <h1>IOT</h1>
+    </section>
+    <section id="product">
+      <h2>PRODUCT</h2>
+    </section>
+    <section id="goods">
+      <h1>GOODS</h1>
+    </section>
+    <section id="examples">
+      <h1>Examples</h1>
+    </section>
+    <section id="writeus">
+      <h1>WRITEUS</h1>
+    </section>
   </main>
-  <footer>
-    
+  <footer data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div style="min-height: 800px"></div>
   </footer>
   <link rel="stylesheet" href="css/main.min.css">
   <script src="js/scripts.min.js"></script>
