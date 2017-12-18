@@ -21,5 +21,18 @@ $(function() {
       });
     });
   }
- 
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    items : 1,
+    slideSpeed: 300,
+    paginationSpeed : 400,
+    itemsDesktop : false,
+    itemsDesktopSmall : false,
+    itemsTablet: false,
+    itemsMobile : false,
+    dots: true,
+    autoPlay: 3000, //Set AutoPlay to 3 seconds
+  })
 });

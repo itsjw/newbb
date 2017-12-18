@@ -14,9 +14,9 @@
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target="#gg" data-offset="50">
+<body data-spy="scroll" data-target="#scrollspy">
   <header>
-    <div class="header-nav"  >
+    <div class="header-nav">
       <div class="container">
         <nav class="navbar" role="navigation" aria-label="main navigation">
           <div class="navbar-brand">
@@ -64,34 +64,42 @@
         </nav>
       </div>
     </div>
-    <div class="sticky-nav" data-spy="affix"    data-offset-top="59" id="gg">
-      <div class="container">
-        <nav class="navbar " role="navigation" aria-label="submain navigation"  >
-          <div class="navbar-menu" >
-              <div class="navbar-start" >
-                  <a class="navbar-item bold" href="#iot">
+    <div class="sticky-nav" data-spy="affix"    data-offset-top="59" >
+      <div class="container" >
+        <nav class="navbar" role="navigation" aria-label="submain navigation" id="scrollspy" >
+          <div class="navbar-menu"  >
+              <ul class="nav navbar-start"  >
+                  <li><a class="navbar-item bold" href="#iot">
                     Интернет вещей
-                  </a>
+                  </a></li><li>
                   <a class="navbar-item bold" href="#product">
                     О продукте
-                  </a>
+                  </a></li><li>
                   <a class="navbar-item bold" href="#goods">
                     Возможности
-                  </a>
+                  </a></li><li>
                   <a class="navbar-item bold" href="#examples">
                     Примеры
-                  </a>            
+                  </a></li><li>            
                   <a class="navbar-item red-colored bold" href="#writeus">
                     Написать нам
-                  </a>
-              </div>
+                  </a></li>
+              </ul>
             </div>
         </nav>
       </div>
     </div>
-  
+    <div class="header-slider">
+      <div id="owl-slider" class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="img/0-header.png" alt="">
+          </div>
+          <div class="item"><img class="img-responsive" src="img/1-header.jpg" alt=""></div>
+          <div class="item"><img class="img-responsive" src="img/2-header.jpg" alt=""></div>
+      </div>
+    </div>
   </header>
-  <main >
+  <main>
     <section id="iot">
       <h1>IOT</h1>
     </section>
@@ -108,8 +116,8 @@
       <h1>WRITEUS</h1>
     </section>
   </main>
-  <footer data-spy="scroll" data-target=".navbar" data-offset="50">
-    <div style="min-height: 800px"></div>
+  <footer>
+   
   </footer>
   <link rel="stylesheet" href="css/main.min.css">
   <script src="js/scripts.min.js"></script>
