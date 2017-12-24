@@ -17,10 +17,14 @@
     "gulp-notify": "^3.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
+    "gulp-imagemin": "^3.3.0",
     "gulp-uglify": "^3.0.0"
   },
   "dependencies": {
     "bulma": "^0.6.1",
-    "bulma-carousel": "^0.2.2"
+    "bulma-carousel": "^0.2.2",
+    "del": "^3.0.0",
+    "gulp-cache": "^1.0.1",
+    "gulp-rename": "^1.2.2"
   }
 }

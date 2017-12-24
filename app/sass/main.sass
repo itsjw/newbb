@@ -19,15 +19,26 @@
   align-content: center
 .header-content
   color: $blue
-  text-align: center
+  text-align: left
   padding: 60px $gutter
-  h1
-    font-size: 40px
-    font-family: roboto-bbiot, sans-serif
-    font-weight: normal
-    text-transform: uppercase
-    margin: 20px 0
-    line-height: 1.5
+  position: relative
+
+.h1
+  color: $blue
+  font-size: 32px
+  font-family: roboto-bbiot, sans-serif
+  font-weight: normal
+  text-transform: uppercase
+  margin: 20px 0
+  line-height: 1.5
+.h2
+  color: $blue
+  font-size: 32px
+  font-family: roboto-bbiot, sans-serif
+  font-weight: normal
+  text-transform: uppercase
+  padding: 20px 0
+  line-height: 1.5
 /*Buttons*/
 .fill
   &:hover, &:focus
@@ -100,7 +111,7 @@
   font-family: montserrat-bbiot
   font-size: 32px
   line-height: 1
-  margin: 0.5em
+  //margin: 0.5em
   padding: 0.3em 2em
   text-decoration: none
 .button-sign
@@ -124,5 +135,16 @@
 .affix-top
   width: 100%
 section
-  min-height: 400px;
+  min-height: 400px
+  padding-bottom: 20px
+.owl-dots
+  position: absolute
+  bottom: 0
+  left: 50%
+  transform: translateX(-50%)
+.light-blue-bg
+  background-color: $light
+.footer-iiot
+  background-color: $dark
+  min-height: 400px
 @import "media" // Всегда в конце
