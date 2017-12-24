@@ -14,7 +14,7 @@
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target="#scrollspy">
+<body data-spy="scroll" data-target="#scrollspy" data-offset="80">
   <header>
     <div class="header-nav">
       <div class="container">
@@ -50,9 +50,6 @@
                   <a class="navbar-item">
                     Контакты
                   </a>
-                  <a class="navbar-item">
-                    Контакты
-                  </a>
                   <a class="navbar-item red-colored">
                      <span class="icon">
                         <i class="fa fa-sign-in-alt"></i>
@@ -66,7 +63,7 @@
     </div>
     <div class="sticky-nav" data-spy="affix"    data-offset-top="59" >
       <div class="container" >
-        <nav class="navbar" role="navigation" aria-label="submain navigation" id="scrollspy" >
+        <nav class="navbar is-hidden-touch" role="navigation" aria-label="submain navigation" id="scrollspy" >
           <div class="navbar-menu"  >
               <ul class="nav navbar-start"  >
                   <li><a class="navbar-item bold" href="#iot">
@@ -80,10 +77,7 @@
                   </a></li><li>
                   <a class="navbar-item bold" href="#examples">
                     Примеры
-                  </a></li><li> 
-                  <a class="navbar-item bold" href="#team">
-                    Команда
-                  </a></li><li>           
+                  </a></li><li>       
                   <a class="navbar-item red-colored bold" href="#writeus">
                     Написать нам
                   </a></li>
@@ -95,12 +89,12 @@
     <div class="header-slider">
       <div id="owl-slider" class="owl-carousel owl-theme">
           <div class="item">
-            <img src="img/0-header.png" alt="">
+            <img src="img/0-header.png" class="img-responsive" alt="">
             <div class="center-left">
               <div class="slider-flex">
                 <div class="container">
                   <div class="columns">
-                    <div class="column is-half">
+                    <div class="column is-half-desktop">
                       <div class="header-content">
                         <h1 class="h1">Решение, которое освежит Ваш бизнес</h1>
                         <div class="header-buttons">
@@ -122,28 +116,69 @@
   <main>
     <section id="iot" class="main-content light-blue-bg "  >
       <div class="container has-text-centered">
-        <h2 class="h2 ">Интернет вещей</h2>
-        <p class="">Наш подход структурирован вокруг появления экосистемы интернета, которая породила цепочку создания стоимости активов состоящую из соединений вещей, данныхх процессов и людей</p>
-        <img class="img-responsive" src="img/iot.png" alt="">
+        <h2 class="h2">Интернет вещей</h2>
+        <img class="img-responsive image-opacity-23" src="img/iot.png" alt=""  >
+          <div class="center-center">
+            <div class="container">
+            <p class="main-text">Наш подход структурирован вокруг появления экосистемы интернета вещей,<br /> которая породила цепочку создания стоимости активов, <br /> состоящую из соединений вещей, данных,<br /> процессов и людей</p>
+            <nav class="level pt30">
+              <p class="level-item has-text-centered">
+               <a href="#" class="button-main pulse">Подробнее</a>
+              </p>
+            </nav>
+            </div>
+          </div>
       </div>
     </section>
     <section id="product">
       <div class="container has-text-centered">
         <h2 class="h2 ">О продукте</h2>
-        <p class="has-text-centered">Наше решение базируется на четырёх основных этапах:
-        Определение, Анализ, Разработка, Внедрение</p>
-        <img class="img-responsive container has-text-centered" src="img/bbiot-scheme.svg" alt="">
+        <img class="img-responsive image-opacity-23 grayscale svg-centered" src="img/bbiot-scheme.svg" alt="">
+        <div class="center-center">
+          <div class="container main-text">
+            <p class="">Наше решение базируется на четырёх основных этапах:</p>
+            <nav class="level pt60">
+             <div class="level-item has-text-centered">
+                <div>
+                  <p class="heading main-text">Определение</p>
+                  <p class="title">123</p>
+                </div>
+              </div>
+               <div class="level-item has-text-centered">
+                <div>
+                  <p class="heading main-text">Анализ</p>
+                  <p class="title">123</p>
+                </div>
+              </div>
+               <div class="level-item has-text-centered">
+                <div>
+                  <p class="heading main-text">Разработка</p>
+                  <p class="title">123</p>
+                </div>
+              </div>
+               <div class="level-item has-text-centered">
+                <div>
+                  <p class="heading main-text">Внедрение</p>
+                  <p class="title">123</p>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        
+
+        
       </div>
     </section>
     <section id="goods" class="main-content light-blue-bg">
       <div class="container has-text-centered ">
-        <h2 class="h1 ">Преимущества</h2>
+        <h2 class="h2 ">Преимущества</h2>
         <p >Наш подход к решению ориентирован на основные области создания стоимости активов, помогая организациям ускорить время выхода на рынок и увеличить экономию средств.</p>
         <p >Наши решения отвечают уникальным потребностям пользователей, продуктов, инфраструктуры и операций</p>
         <ul>
-          <li>Блок регистратор достаточной вычислительной мощности - законченное платформенное решение для бизнес пользователей</li>
-          <li>Наличие блока реализации бизнес-процессов под нужды заказчика</li>
-          <li>Низкая стоимость оборудования</li>
+          <li>Блок регистратор </li>
+          <li>Бизнес-процессы</li>
+          <li>Низкая стоимость</li>
         </ul>
        
       </div>
@@ -151,24 +186,114 @@
     <section id="examples">
        <div class="container">
         <h2 class="h2 has-text-centered">Примеры</h2>
-         <img class="img-responsive container has-text-centered" src="img/bbiot-bpm-example.svg" alt="">
+         <img class="img-responsive container image-opacity-23 grayscale svg-centered " src="img/bbiot-bpm-example.svg" alt="">
       </div>
     </section>
-    <section id="team" class="main-content light-blue-bg">
-      <div class="container">
-        <h2 class="h2 has-text-centered">Команда</h2>
-      </div>
-    </section>
-    <section id="writeus" class="main-content  ">
+    <section id="writeus" class="main-content  light-blue-bg ">
       <div class="container">
         <h2 class="h2 has-text-centered">Написать нам</h2>
+        <div class="contact-form">
+          <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+              <div class="field is-horizontal">
+                <div class="field-body">
+                  <div class="field">
+                    <p class="control is-expanded has-icons-left">
+                      <input class="input" type="text" placeholder="Имя">
+                      <span class="icon is-small is-left">
+                        <i class="fa fa-user"></i>
+                      </span>
+                    </p>
+                  </div>
+                  <div class="field">
+                    <p class="control is-expanded has-icons-left  ">
+                      <input class="input" type="email" placeholder="Email" value="">
+                      <span class="icon is-small is-left">
+                        <i class="fa fa-envelope"></i>
+                      </span>
+                      
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="field is-horizontal">
+                <div class="field-body">
+                  <div class="field is-expanded">
+                    <div class="field has-addons">
+                      <p class="control">
+                        <a class="button is-static">
+                          +7
+                        </a>
+                      </p>
+                      <p class="control is-expanded">
+                        <input class="input" type="tel" placeholder="Телефон">
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="field is-horizontal">
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control">
+                      <textarea class="textarea" placeholder="">Сообщение</textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field is-horizontal">
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control has-text-centered pt30">
+                      <a href="#" class="button-main pulse">Отправить</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+    </section>    
   </main>
   <footer class="footer-iiot">
-     <div class="container">
-       <h3 class="has-text-centered" style="color:#fff">BrainBox</h3>
-     </div>
+    <div class="footer-social">
+      <nav class="level">
+      <!-- Left side -->
+        <div class="level-left">
+          <div class="level-item">
+             <span class="icon is-large">
+              <i class="fab fa-vk"  ></i>
+            </span>
+          </div>
+          <div class="level-item">
+            <span class="icon is-large">
+              <i class="fab fa-facebook"  ></i>
+            </span>
+          </div>
+           <div class="level-item">
+            <span class="icon is-large">
+              <i class="fab fa-youtube" ></i>
+            </span>
+          </div>
+        </div>
+
+        <!-- Right side -->
+        <div class="level-right">
+          <p class="level-item"><strong>All</strong></p>
+          <p class="level-item"><a>Published</a></p>
+          <p class="level-item"><a>Drafts</a></p>
+          <p class="level-item"><a>Deleted</a></p>
+          <p class="level-item"><a class="button is-success">New</a></p>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+       
+    </div>
   </footer>
   <link rel="stylesheet" href="css/main.min.css">
   <script src="js/scripts.min.js"></script>
